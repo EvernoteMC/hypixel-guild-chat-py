@@ -17,6 +17,6 @@ OWNER_IDS = [177750582818242561]
 # Don't touch this unless you know what you're doing
 load_dotenv()
 TOKEN = os.getenv("TOKEN")
-GUILD_CHAT_CHANNEL = os.getenv("GUILD_CHAT_CHANNEL")
+GUILD_CHAT_CHANNEL = int(os.getenv("GUILD_CHAT_CHANNEL"))
 MINECRAFT_EMAIL = os.getenv("MINECRAFT_EMAIL")
 MINECRAFT_PASSWORD = os.getenv("MINECRAFT_PASSWORD")
