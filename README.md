@@ -30,7 +30,7 @@ EMOJIS = {
     'LEAVE': '📤'  # When a member leaves Hypixel
 }
 # List of Owner IDs (to use commands like sumo)
-OWNER_IDS = ['177750582818242561']
+OWNER_IDS = [177750582818242561]
 ```
 You can use a unicode, like 🎮, or custom emojis like `<:hypixel:855419679597920257>`
 
